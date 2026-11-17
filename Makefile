@@ -52,3 +52,4 @@ deploy-sepolia:
 mint-sepolia:
 	@forge script script/Interactions.s.sol:MintBasicNft --rpc-url $(SEPOLIA_RPC_URL)
 	--account defaultKey_MM --broadcast --verify --etherscan-api-key $(ETHERSCAN_API_KEY) -vvvv
+	

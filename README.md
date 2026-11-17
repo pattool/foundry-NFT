@@ -1,3 +1,19 @@
+We go through creating 2 different kinds of NFTs.
+
+1. An IPFS Hosted NFT 
+2. An SVG NFT (Hosted 100% on-chain) 
+
+<br/>
+<p align="center">
+<img src="./images/dogNft/pug.png" width="225" alt="NFT Pug">
+<img src="./images/dynamicNft/happy.svg" width="225" alt="NFT Happy">
+<img src="./images/dogNft/shiba-inu.png" width="225" alt="NFT Shiba">
+<img src="./images/dynamicNft/sad.svg" width="225" alt="NFT Frown">
+<img src="./images/dogNft/st-bernard.png" width="225" alt="NFT St.Bernard">
+</p>
+<br/>
+
+
 Happy SVG:
 data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAwIDIwMCIgd2lkdGg9IjQwMCIgIGhlaWdodD0iNDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxjaXJjbGUgY3g9IjEwMCIgY3k9IjEwMCIgZmlsbD0ieWVsbG93IiByPSI3OCIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIzIi8+CiAgPGcgY2xhc3M9ImV5ZXMiPgogICAgPGNpcmNsZSBjeD0iNzAiIGN5PSI4MiIgcj0iMTIiLz4KICAgIDxjaXJjbGUgY3g9IjEyNyIgY3k9IjgyIiByPSIxMiIvPgogIDwvZz4KICA8cGF0aCBkPSJtMTM2LjgxIDExNi41M2MuNjkgMjYuMTctNjQuMTEgNDItODEuNTItLjczIiBzdHlsZT0iZmlsbDpub25lOyBzdHJva2U6IGJsYWNrOyBzdHJva2Utd2lkdGg6IDM7Ii8+Cjwvc3ZnPg==
 
