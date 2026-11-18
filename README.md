@@ -1,3 +1,5 @@
+# Foundry NFT -- Still in the Making!!! --
+
 We go through creating 2 different kinds of NFTs.
 
 1. An IPFS Hosted NFT 
@@ -13,11 +15,13 @@ We go through creating 2 different kinds of NFTs.
 </p>
 <br/>
 
+- [Foundry NFT -- Still in the Making!!! --](#foundry-nft----still-in-the-making---)
 - [Getting Started](#getting-started)
   - [Requirements](#requirements)
   - [Quickstart](#quickstart)
 - [Usage](#usage)
   - [Start a local node](#start-a-local-node)
+  - [Deploy](#deploy)
 
 
 
@@ -31,8 +35,7 @@ We go through creating 2 different kinds of NFTs.
   - You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
 - [foundry](https://getfoundry.sh/)
   - You'll know you did it right if you can run `forge --version` and you see a response like `forge 0.2.0 (816e00b 2023-03-16T00:05:26.396218Z)`
-- - [Usage](#usage)
-  - [Start a local node](#start-a-local-node)
+
 
 
 
@@ -55,6 +58,16 @@ forge build
 
 ```
 make anvil
+```
+
+## Deploy
+
+
+This will default to your local node. You need to have it running in another terminal in order for it to deploy.
+
+
+```
+make deploy
 ```
 
 
