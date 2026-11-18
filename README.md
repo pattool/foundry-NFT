@@ -1,6 +1,6 @@
 # Foundry NFT -- Still in the Making!!! --
 
-We go through creating 2 different kinds of NFTs.
+Creating 2 different kinds of NFTs.
 
 1. An IPFS Hosted NFT 
 2. An SVG NFT (Hosted 100% on-chain) 
@@ -55,9 +55,10 @@ forge build
 
 ## Start a local node
 
+Open a new terminal to run anvil.
 
 ```
-make anvil
+anvil
 ```
 
 ## Deploy
