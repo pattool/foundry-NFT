@@ -13,6 +13,51 @@ We go through creating 2 different kinds of NFTs.
 </p>
 <br/>
 
+- [Getting Started](#getting-started)
+  - [Requirements](#requirements)
+  - [Quickstart](#quickstart)
+- [Usage](#usage)
+  - [Start a local node](#start-a-local-node)
+
+
+
+# Getting Started
+
+
+## Requirements
+
+
+- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+  - You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
+- [foundry](https://getfoundry.sh/)
+  - You'll know you did it right if you can run `forge --version` and you see a response like `forge 0.2.0 (816e00b 2023-03-16T00:05:26.396218Z)`
+- - [Usage](#usage)
+  - [Start a local node](#start-a-local-node)
+
+
+
+
+## Quickstart
+
+
+```
+git clone https://github.com/pattool/foundry-NFT.git
+cd foundry-nft
+forge install
+forge build
+```
+
+# Usage
+
+
+## Start a local node
+
+
+```
+make anvil
+```
+
+
 
 Happy SVG:
 data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAwIDIwMCIgd2lkdGg9IjQwMCIgIGhlaWdodD0iNDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxjaXJjbGUgY3g9IjEwMCIgY3k9IjEwMCIgZmlsbD0ieWVsbG93IiByPSI3OCIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIzIi8+CiAgPGcgY2xhc3M9ImV5ZXMiPgogICAgPGNpcmNsZSBjeD0iNzAiIGN5PSI4MiIgcj0iMTIiLz4KICAgIDxjaXJjbGUgY3g9IjEyNyIgY3k9IjgyIiByPSIxMiIvPgogIDwvZz4KICA8cGF0aCBkPSJtMTM2LjgxIDExNi41M2MuNjkgMjYuMTctNjQuMTEgNDItODEuNTItLjczIiBzdHlsZT0iZmlsbDpub25lOyBzdHJva2U6IGJsYWNrOyBzdHJva2Utd2lkdGg6IDM7Ii8+Cjwvc3ZnPg==
