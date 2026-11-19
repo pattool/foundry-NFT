@@ -22,7 +22,8 @@ Creating 2 different kinds of NFTs.
 - [Usage](#usage)
   - [Start a local node](#start-a-local-node)
   - [Deploy](#deploy)
-
+  - [Testing](#testing)
+    - [Test Coverage](#test-coverage)
 
 
 # Getting Started
@@ -71,7 +72,30 @@ This will default to your local node. You need to have it running in another ter
 make deploy
 ```
 
+## Testing
 
+We have 3 test in this repo. 
+
+1. Unit
+2. Integration
+3. Forked
+ 
+
+```
+forge test
+```
+
+or 
+
+```
+forge test --fork-url $SEPOLIA_RPC_URL
+```
+
+### Test Coverage
+
+```
+forge coverage
+```
 
 Happy SVG:
 data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAwIDIwMCIgd2lkdGg9IjQwMCIgIGhlaWdodD0iNDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxjaXJjbGUgY3g9IjEwMCIgY3k9IjEwMCIgZmlsbD0ieWVsbG93IiByPSI3OCIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIzIi8+CiAgPGcgY2xhc3M9ImV5ZXMiPgogICAgPGNpcmNsZSBjeD0iNzAiIGN5PSI4MiIgcj0iMTIiLz4KICAgIDxjaXJjbGUgY3g9IjEyNyIgY3k9IjgyIiByPSIxMiIvPgogIDwvZz4KICA8cGF0aCBkPSJtMTM2LjgxIDExNi41M2MuNjkgMjYuMTctNjQuMTEgNDItODEuNTItLjczIiBzdHlsZT0iZmlsbDpub25lOyBzdHJva2U6IGJsYWNrOyBzdHJva2Utd2lkdGg6IDM7Ii8+Cjwvc3ZnPg==
