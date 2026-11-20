@@ -103,7 +103,8 @@ forge coverage
 
 1. Setup environment variables
 
-You'll want to set your `SEPOLIA_RPC_URL` as environment variables. You can add them to a `.env` file, similar to what you see in `.env.example`.
+You'll want to set your `SEPOLIA_RPC_URL` as environment variables. You can add them to a `.env` file, similar to what you see in `.env.example`. 
+- Do not forget to do `source.env`, or it will not loading your .env file.
 
 - `PRIVATE_KEY`: The private key of your account (like from [metamask](https://metamask.io/)). **NOTE:** FOR DEVELOPMENT, PLEASE USE A KEY THAT DOESN'T HAVE ANY REAL FUNDS ASSOCIATED WITH IT.
   - You can [learn how to export it here](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key).
