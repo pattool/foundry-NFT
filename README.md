@@ -25,6 +25,7 @@ Creating 2 different kinds of NFTs.
   - [Testing](#testing)
     - [Test Coverage](#test-coverage)
 - [Deployment to a testnet or mainnet](#deployment-to-a-testnet-or-mainnet)
+  - [Scripts](#scripts)
 
 
 # Getting Started
@@ -126,6 +127,14 @@ make deploy ARGS="--network sepolia"
 
 ```
 make deploySvg ARGS="--network sepolia"
+```
+
+## Scripts
+
+After deploy to a testnet or local net, you can run the scripts. 
+
+
+
 
 
 Happy SVG:
