@@ -40,7 +40,7 @@ ifeq ($(findstring --network sepolia,$(ARGS)),--network sepolia)
 endif
 
 deploy:
-	@forge script script/DeployBasicNft.s.sol:DeployBasicNft $(NETWORK_ARGS)
+	@forge script script/DeployBasicNft.s.sol:DeployBasicNft $(NETWORK_ARGS) -vvvv
 
 deploy-sepolia:
 	@forge script script/DeployBasicNft.s.sol:DeployBasicNft --rpc-url $(SEPOLIA_RPC_URL)
@@ -52,3 +52,6 @@ deploy-sepolia:
 mint-sepolia:
 	@forge script script/Interactions.s.sol:MintBasicNft --rpc-url $(SEPOLIA_RPC_URL)
 	--account defaultKey_MM --broadcast --verify --etherscan-api-key $(ETHERSCAN_API_KEY) -vvvv
+
+deployMood:
+	@forge script script/DeployMoodNft.s.sol:DeployMoodNft $(NETWORK_ARGS) -vvvv	
