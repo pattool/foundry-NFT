@@ -55,3 +55,8 @@ mint-sepolia:
 
 deployMood:
 	@forge script script/DeployMoodNft.s.sol:DeployMoodNft $(NETWORK_ARGS) -vvvv	
+
+deployMood-sepolia:
+	@forge script script/DeployMoodNft.s.sol:DeployMoodNft --rpc-url $(SEPOLIA_RPC_URL)
+	--account defaultKey_MM --broadcast --verify --etherscan-api-key $(ETHERSCAN_API_KEY) -vvvv
+	
