@@ -26,6 +26,7 @@ Creating 2 different kinds of NFTs.
     - [Test Coverage](#test-coverage)
 - [Deployment to a testnet or mainnet](#deployment-to-a-testnet-or-mainnet)
   - [Scripts](#scripts)
+  - [Base64](#base64)
 
 
 # Getting Started
@@ -133,7 +134,19 @@ make deploySvg ARGS="--network sepolia"
 
 After deploy to a testnet or local net, you can run the scripts. 
 
+Using cast deployed locally example: 
 
+```
+cast send <RAFFLE_CONTRACT_ADDRESS> "enterRaffle()" --value 0.1ether --private-key <PRIVATE_KEY> --rpc-url $SEPOLIA_RPC_URL
+```
+
+or, to create a ChainlinkVRF Subscription:
+
+```
+make createSubscription ARGS="--network sepolia"
+```
+
+## Base64
 
 
 
